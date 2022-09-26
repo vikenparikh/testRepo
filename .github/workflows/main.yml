@@ -1,4 +1,4 @@
-name: testRepomain
+name: MicrosoftDevOpsSecurity
 on:
   push:
     branches:
