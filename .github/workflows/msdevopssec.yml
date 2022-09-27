@@ -2,7 +2,7 @@ name: MicrosoftDevOpsSecurity
 on:
   push:
     branches:
-      - main
+      - branch1
 
 jobs:
   sample:
