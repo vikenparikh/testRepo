@@ -2,7 +2,7 @@ name: MicrosoftDevOpsSecurity
 on:
   push:
     branches:
-      - main
+      - branch1
 
 jobs:
   sample:
@@ -28,6 +28,8 @@ jobs:
     - name: Run Microsoft Security DevOps Analysis
       uses: microsoft/security-devops-action@preview
       id: msdo
+      with:
+        categories: 'IaCC'
 
       # Upload alerts to the Security tab
     - name: Upload alerts to Security tab
